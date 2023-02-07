@@ -1,6 +1,6 @@
 .secao-capa-quartos{
     display: flex;
-    background-image: url(assets/images/img-fundo.jpg);
+    background-image: url("../assets/images/img-fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 220px;
