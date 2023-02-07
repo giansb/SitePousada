@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+}
+
+body {
+    color: rgb(88, 88, 88);
+    margin: 0;
+}
+
+.cabecalho {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+
+.cabecalho-links{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+
+.cabecalho .link{
+    margin: 0 40px;
+    font-size: 20px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(88, 88, 88);
+}
+
+.azul{
+    color: rgb(0, 202, 202);
+    text-decoration: none;
+}
+
+.secao-capa{
+    display: flex;
+    background-image: url('/assets/images/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.capa-container {
+    text-align: center;
+    font-size: 200%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh 7vw;
+    background-color: rgb(0, 138, 57, 0.5);
+    border: 1px solid white;
+    color: white;
+}
+
+.secao-titulo{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.secao-titulo h2 {
+    font-weight: normal;
+}
+
+.quartos-resumo-img{
+    margin-bottom: 15px ;
+    width: 400px;
+    height: 280px;
+}
+
+.boxes-quartos-resumo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.box-quartos-resumo{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 20px;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid rgb(0, 238, 255);
+}
+
+.secao-localizacao {
+    margin: 0 10vw;
+}
+
+.secao-sobre-pousada{
+    margin-bottom: 40px ;
+}
+
+.sobre-pousada-img{
+    width: 300px;
+    height: 300px;
+}
+
+.boxes-sobre-pousada {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-sobre{
+    display: flex;
+    flex-flow: row nowrap;
+    margin:30px;
+}
+
+.box-sobre-conteudo{
+    display: flex;
+    flex-flow: column wrap;
+    width: 400px;
+    justify-content:flex-start;
+    padding: 0 5px;
+}
+
+.secao-rodape{ 
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(0, 138, 57);
+    padding: 20px;
+    color: white;
+}
+
+.rodape {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(0, 104, 0);
+    padding: 20px 0;
+}
+
+.boxes-rodape{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.rodape-img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.box-rodape{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 40px;
+    font-size: 20px;
+    align-items: center;
+}
+
+@media (max-width: 700px){
+    .cabecalho-titulo{
+        margin-bottom: 20px;
+    }
+
+    .secao-localizacao {
+        margin: 5px;
+    }
+
+    .boxes-rodape{
+        flex-flow: column wrap;
+    }
+    
+    .box-sobre {
+        text-align: center;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-sobre-conteudo{
+        width: 300px;
+    }
+
+    .quartos-resumo-img{
+        margin-bottom: 15px ;
+        width: 330px;
+        height: 260px;
+    }
+
+    .capa-container {
+        margin: 0 8px;
+        font-size: 150%;
+        padding: 4vh 7vw;
+    }
+
+    .secao-capa{
+        height: 550px;
+    }
+
+    .box-rodape{
+        margin: 0 20px;
+        font-size: 15px;
+    }
+
+    .rodape-img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .logo {
+        text-decoration: none;
+        font-size: 30px;
+        color: rgb(88, 88, 88);
+    }
+}
+

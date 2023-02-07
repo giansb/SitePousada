@@ -1,0 +1,55 @@
+.secao-capa-quartos{
+    display: flex;
+    background-image: url('/assets/images/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pag-quartos-img{
+    width: 370px;
+    height: 260px;
+    margin: 5px;
+    overflow: auto;
+}
+
+.box-pag-quartos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.quartos-info{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: center;
+}
+
+.informacoes ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    width: 1000px;  
+}
+
+.info-lista li {
+    margin: 0 40px;
+}
+
+.secao-quarto {
+    margin: 70px 0;
+}
+
+@media (max-width: 700px) {
+    .pag-quartos-img{
+        width: 370px;
+        height: 260px;
+        margin: 2px;
+    }
+}
